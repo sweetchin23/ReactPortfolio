@@ -1,0 +1,30 @@
+/* src/components/Header.css */
+
+/**
+ * File name: Header.js
+ * Student's Name: Nacelle Anne De Mesa
+ * Student ID: 301352882
+ * Date: 05/21/24
+ */
+ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  .logo {
+    width: 50px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  

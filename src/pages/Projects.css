@@ -1,0 +1,69 @@
+/* src/pages/Projects.css */
+
+/**
+ * File name: Project.js
+ * Student's Name: Nacelle Anne De Mesa
+ * Student ID: 301352882
+ * Date: 05/21/24
+ */
+ 
+/* src/pages/Projects.css */
+
+.projects {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.projects h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  flex: 1;
+  max-width: 300px;
+}
+
+.project-image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.project-item h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.project-item p {
+  color: #555;
+  padding-bottom: 10px;
+}
+
+.project-item .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #f9a79b;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project-item .btn:hover {
+  background-color: #fbcab9;
+}

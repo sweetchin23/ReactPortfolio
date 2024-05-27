@@ -1,0 +1,47 @@
+/* src/components/Navigation.css */
+
+/**
+ * File name: Navigation.css
+ * Student's Name: Nacelle Anne De Mesa
+ * Student ID: 301352882
+ * Date: 05/21/24
+ */
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #05aba9;
+    color: #ffffff;
+    padding: 0 20px;
+  }
+  
+  .logo-container {
+    order: -1; 
+  }
+  
+  .logo {
+    height: 120px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    padding: 0.5rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  

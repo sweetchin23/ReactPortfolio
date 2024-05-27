@@ -1,0 +1,31 @@
+/* src/pages/About.css */
+
+/**
+ * File name: About.js
+ * Student's Name: Nacelle Anne De Mesa
+ * Student ID: 301352882
+ * Date: 05/21/24
+ */
+ 
+.about {
+    text-align: center;
+    padding: 50px;
+  }
+  .profile-pic {
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #f9a79b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #fbcab9;
+  }
+  

@@ -1,0 +1,45 @@
+/* src/pages/Services.css */
+
+/**
+ * File name: Services.js
+ * Student's Name: Nacelle Anne De Mesa
+ * Student ID: 301352882
+ * Date: 05/21/24
+ */
+ 
+/* src/pages/Services.css */
+
+.services {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.service h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.service p {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #666;
+}
