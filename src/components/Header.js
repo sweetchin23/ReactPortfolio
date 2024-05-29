@@ -7,7 +7,6 @@
  * Date: 05/21/24
  */
 
-// src/components/Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/Nacelle_logo2.png'; 

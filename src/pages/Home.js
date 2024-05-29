@@ -7,8 +7,6 @@
  * Date: 05/21/24
  */
 
-
-// src/pages/Home.js
 import React from 'react';
 import './Home.css';
 import profilePic from '../assets/Nacelle_logo1.png';

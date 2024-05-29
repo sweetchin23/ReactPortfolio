@@ -43,7 +43,7 @@ const Contact = () => {
         <p>Email: nacelle.anne@gmail.com</p>
         <p>Phone: (437) 123-4567</p>
         <p>Address: Scarborough, Ontario, Canada</p>
-      </div>
+      
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="firstName">First Name:</label>
@@ -101,6 +101,7 @@ const Contact = () => {
         </div>
         <button type="submit" className="submit-button">Send Message</button>
       </form>
+    </div>
     </div>
   );
 }

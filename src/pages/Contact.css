@@ -6,8 +6,6 @@
  * Student ID: 301352882
  * Date: 05/21/24
  */
- 
-/* src/pages/Contact.css */
 
 body {
   font-family: 'Arial', sans-serif;
@@ -21,7 +19,6 @@ body {
   padding: 40px 20px;
   background-color: #f9f9f9;
   min-height: 100vh;
-  color: #8B4513; 
 }
 
 .contact-title {
@@ -34,10 +31,10 @@ body {
 .contact-panel {
   background-color: #fff;
   border: 1px solid #ddd;
- /* border-radius: 10px;
+  border-radius: 10px;
   padding: 20px;
   margin-bottom: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/ 
 }
 
 .contact-panel h2 {
@@ -57,7 +54,7 @@ body {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

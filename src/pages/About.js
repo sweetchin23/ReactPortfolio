@@ -7,8 +7,6 @@
  * Date: 05/21/24
  */
 
-
-// src/pages/About.js
 import React from 'react';
 import './About.css';
 import profilePic from '../assets/me.png'; 
