@@ -41,7 +41,6 @@ const Contact = () => {
       <div className="contact-panel">
         <h2>Contact Information</h2>
         <p>Email: nacelle.anne@gmail.com</p>
-        <p>Phone: (437) 123-4567</p>
         <p>Address: Scarborough, Ontario, Canada</p>
       
       <form className="contact-form" onSubmit={handleSubmit}>
