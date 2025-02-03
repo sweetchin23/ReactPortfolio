@@ -40,7 +40,7 @@ const Contact = () => {
       <h1 className="contact-title">Contact Me</h1>
       <div className="contact-panel">
         <h2>Contact Information</h2>
-        <p>Email: nacelle.anne@gmail.com</p>
+        <p>Email: nacelle.portfolio@gmail.com</p>
         <p>Address: Scarborough, Ontario, Canada</p>
       
       <form className="contact-form" onSubmit={handleSubmit}>
