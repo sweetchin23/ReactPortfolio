@@ -9,7 +9,7 @@
  
 /* src/pages/Home.css */
 
-.home {
+/*.home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,4 +66,81 @@
 
 .home-text .btn:hover {
   background-color: #fbcab9;
+}
+*/
+
+/* src/pages/Home.css */
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 20px;
+  background-color: #ffffff; /* Change background to deep blue */
+  color: #333;
+  text-align: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.home-text .intro-text {
+  font-size: 14px;
+  color: #f9a79b;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-text .description {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.home-text .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f9a79b;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.home-text .btn:hover {
+  background-color: #ff9685;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }

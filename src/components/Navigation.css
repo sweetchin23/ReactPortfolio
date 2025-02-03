@@ -1,11 +1,11 @@
-/* src/components/Navigation.css */
+/* src/components/Navigation.css
 
 /**
  * File name: Navigation.css
  * Student's Name: Nacelle Anne De Mesa
  * Student ID: 301352882
  * Date: 05/21/24
- */
+ 
 
 
 .navigation {
@@ -16,6 +16,7 @@
     background-color: #05aba9;
     color: #ffffff;
     padding: 0 20px;
+    flex-wrap: wrap;
   }
   
   .logo-container {
@@ -29,7 +30,7 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 20px;
   }
   
   .nav-links li {
@@ -45,3 +46,73 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      text-align: center;
+    }
+  } */
+
+  /* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #05aba9;
+  color: white;
+}
+
+.logo-container {
+  order: -1; 
+}
+
+.logo {
+  height: 120px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Hide the hamburger menu on larger screens */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #05aba9;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+}
