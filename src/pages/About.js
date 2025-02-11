@@ -20,9 +20,9 @@ const About = () => (
       </div>
       <div className="about-text">
         <h1>About Me</h1>
-        <p>Hello, My name is Nacelle Anne De Mesa. I've decided to study Software Engineering Technician.</p><p> This is my assignment portfolio in React.I am an experienced graphic designer and web developer who is passionate about developing immersive digital experiences.</p>
-         <p>With experience in both design principles and technological implementation, I specialize in creating visually appealing and user-friendly websites.</p>
-         <p>My approach is guided by a desire for excellence, innovation, and lifelong learning, ensuring that each project exceeds expectations and resonates with audiences.</p>
+        <p>Hello, my name is Nacelle Anne De Mesa. I am a Creative Front-End Developer with a background in graphic design and web development.</p><p> With expertise in HTML5, CSS3, JavaScript, and React.js, I specialize in creating visually appealing, user-friendly, and high-performing digital experiences.</p>
+<p>My experience extends to API integration, Agile development, and UI/UX principles, ensuring that every project is not only functional but also engaging.</p><p>With a strong passion for innovation and continuous learning, I am committed to delivering high-quality solutions that enhance user experiences and drive results.</p>
+<p>I am eager to contribute my skills to a dynamic team and create impactful digital solutions.</p>
         <a href={resumePDF} className="btn" target="_blank" rel="noopener noreferrer">Download Resume</a>
       </div>
     </div>
