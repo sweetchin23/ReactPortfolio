@@ -40,7 +40,7 @@ const Home = () => (
         <img src={profilePic} alt="Profile" />
       </div>
       <div className="home-text">
-        <p className="intro-text">MY NAME IS NACELLE ANNE</p>
+        <p className="intro-text">Hi, Im NACELLE ANNE</p>
         <h1>I Am A Web Developer & Graphic Designer</h1>
         <p className="description">
         I blend creativity and technology to design and develop visually compelling, user-friendly websites that elevate brands and engage audiences.

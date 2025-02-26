@@ -6,70 +6,6 @@
  * Student ID: 301352882
  * Date: 05/21/24
  */
- 
-/* src/pages/Home.css */
-
-/*.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 20px;
-  background-color: #f9f9f9;
-}
-
-.home-content {
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.home-image img {
-  border-radius: 50%;
-  max-width: 200px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.home-text {
-  flex: 1;
-  text-align: center;
-}
-
-.home-text h1 {
-  margin-bottom: 1rem;
-  color: #333;
-  text-align: center;
-}
-
-.home-text p {
-  margin-bottom: 1.5rem;
-  color: #555;
-}
-
-.home-text .btn {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  color: #fff;
-  background-color: #f9a79b;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.home-text .btn:hover {
-  background-color: #fbcab9;
-}
-*/
-
-/* src/pages/Home.css */
 
 .home {
   display: flex;
@@ -78,7 +14,7 @@
   align-items: center;
   height: 80vh;
   padding: 20px;
-  background-color: #ffffff; /* Change background to deep blue */
+  background-color: #ffffff;
   color: #333;
   text-align: center;
 }
@@ -99,8 +35,8 @@
 }
 
 .home-text .intro-text {
-  font-size: 14px;
-  color: #f9a79b;
+  font-size: 24px;
+  color: #05aba9;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -127,7 +63,7 @@
 }
 
 .home-text .btn:hover {
-  background-color: #ff9685;
+  background-color: #fbcab9;
 }
 
 .home-image img {
