@@ -35,7 +35,7 @@
 import React from 'react';
 import './About.css';
 import profilePic from '../assets/me.png'; 
-import resumePDF from '../assets/myresume.pdf'; 
+import resumePDF from '../assets/NacelleAnneDeMesa_UpdatedResume03042025.pdf'; 
 import { FaBehance, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => (
